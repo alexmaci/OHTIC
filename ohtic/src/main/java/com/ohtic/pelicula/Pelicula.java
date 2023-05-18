@@ -16,7 +16,6 @@ public class Pelicula {
     private Integer anyo;
     private String director;
     private String genero;
-    private Calendar hora;
     @OneToOne
     private Usuario usuario;
 }
